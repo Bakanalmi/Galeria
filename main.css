@@ -14,8 +14,8 @@ html, body{
 }
 
 #container > div{
-	position: relative;
-	float: left;
+	position: flex;
+	flex-wrap: wrap;
 	margin: 10px 10px 0 0;
 }
 
@@ -32,3 +32,4 @@ html, body{
 #container > div:hover > img{
 	transform: scale(2,2);
 	transition: transform .7s;
+}
